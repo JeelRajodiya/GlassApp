@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Glass",
+    "slug": "snack-715a3d88-21f0-4bd8-8b6c-fd8f85d913fc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.jeel.expo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
