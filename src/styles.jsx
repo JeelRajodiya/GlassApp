@@ -12,8 +12,8 @@ var styles = StyleSheet.create({
 
     Input:{
         flex:1,
-        backgroundColor: 'black',
-        color:"white",
+        backgroundColor: '#191919',
+        color:"#2bd1ff",
         borderRadius:100,
         paddingHorizontal:20,
         borderWidth:1,
@@ -22,7 +22,7 @@ var styles = StyleSheet.create({
     OkBtn:{
       borderWidth:1,
         borderColor:"#940d03",  
-        backgroundColor:"black",
+        backgroundColor:"#360404",
         width:60,
         alignContent:"center",
         justifyContent:"center",
@@ -53,8 +53,8 @@ var styles = StyleSheet.create({
         borderColor:"#4287f5",
         borderWidth:1,
         borderRadius:15,
-        padding:10,
-        paddingVertical:10,
+        paddingVertical:13,
+        padding:17,
         marginVertical:4,
         margin:5
         

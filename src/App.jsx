@@ -76,9 +76,9 @@ function InputView(props){
 
 function OkBtn(props){
     const TextStyle = {
-        color:"red"  ,
-   
-        alignSelf:"center"
+        color:"red",
+        alignSelf:"center",
+        fontWeight:"bold"
     }
     return (
         <TouchableOpacity style={styles.OkBtn}  
@@ -97,7 +97,7 @@ function ResultCard(props){
     return (
         
         <View style = {styles.ResultCard} key = {props.text}>
-            <Text style={{color:"#4287ff"}}> {props.text} </Text>
+            <Text style={{color:"#4287ff",fontSize:15}}> {props.text} </Text>
         </View>
     )
 }
@@ -109,6 +109,7 @@ function ResultView(props){
   }
     return (
         <View style = {styles.ResultView}>
+        <StatusBar hidden={false} translucent={true}/>
         <ScrollView style = {ScrollViewStyle}>
             <ActivityIndicator color="#4287f5" size="large" animating={props.isloading} style = {{display: props.isloading ? "flex" : "none",padding:20}}/>    
             <FlatList data = {props.results} renderItem = { ({item}) => <ResultCard text = {item}>  </ResultCard>}/>
