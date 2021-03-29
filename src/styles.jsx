@@ -13,7 +13,7 @@ var styles = StyleSheet.create({
     Input:{
         flex:1,
         backgroundColor: '#191919',
-        color:"#2bd1ff",
+        color:"white",
         borderRadius:100,
         paddingHorizontal:20,
         borderWidth:1,
